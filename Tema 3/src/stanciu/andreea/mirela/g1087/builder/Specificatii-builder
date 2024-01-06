@@ -1,0 +1,18 @@
+Aplicatie informatica pentru domeniul financiar, sectorul investitiilor
+
+BUILDER
+Participantii inscrisi in cursurile despre investitii sunt caracterizati de un set complex de informatii personale 
+astfel incat aplicatia sa le poata oferi continut personalizat, adaptat varstei, obiectivelor, precum si altor variabile. 
+Unele dintre aceste informatii sunt obligatorii de retiunt despre cursanti, iar altele sunt optionale. 
+Trebuie gasita o solutie eficienta care sa permita crearea cursantilor fara a da valori pentru toate atributele, 
+dar si fara a permite programatorilor sa omita unele dintre ele. 
+
+Avantaje:
+-Un cursant poate fi creat independent de partile care il compun (un obiect poate sa le contina pe toate sau doar o parte)
+-Sistemul permite reprezentarea diferita a obiectelor create printr-o interfata comuna
+-Algoritmul de creare a obiectului este flexibil deoarece cursantul alege ce parti sa fie create
+
+Dezavantaje:
+-La crearea de obiecte, pot fi omise atribute 
+-Pentru a crea un obiect, trebuie creat mai intai builderul sau, ceea ce poate reprezenta o problema in unele situatii critice de performanta
+-Necesita crearea unui builder concret separat in eventualitatea in care apare un nou tip de cursant 

@@ -1,0 +1,14 @@
+Aplicatie informatica pentru domeniul financiar, sectorul investitiilor
+
+COMPOSITE
+Utilizatorii cu un nivel ridicat de performanta au posibilitatea de a deveni profesori pentru ceilalti cursanti, ceea ce determina 
+existenta unei structuri ierarhice de utilizatori. Se doreste gasirea unei solutii eficiente care sa permita gruparea lor. 
+
+Avantaje:
+•Permite gestiunea facila a unor ierarhii de clase 
+•Codul devine mai simplu deoarece obiectele din ierarhie sunt tratate unitar
+•Adaugarea de noi componente care respecta interfata comuna nu ridica probleme suplimentare
+
+Dezavantaje:
+•Poate fi dificil sa se furnizeze o interfata comuna pentru clasele a caror functionalitate difera prea mult. In unele scenarii, trebuie suprageneralizata interfata cee ace face codul mai greu de inteles
+•In anumite cazuri, este dificil sa se limiteze componentele arborelui doar la anumite tipuri. 

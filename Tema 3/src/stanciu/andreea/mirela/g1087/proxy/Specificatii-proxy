@@ -1,0 +1,15 @@
+Aplicatie informatica pentru domeniul financiar, sectorul investitiilor
+
+PROXY
+Continutul teoretic al lectiilor este exemplificat prin videoclipuri. Momentan, aceste videoclipuri se incarca in memorie la creare, 
+insa din motive de eficientizare se doreste implementarea unei solutii care sa salveze fisierul din care se incarca videoclipul, 
+dar sa se creeze in memorie doar daca memoria disponibila este suficienta si daca se doreste redarea videoclipului. 
+
+Avantaje:
+-gestioneaza crearea si initializarea unor obiecte costisitoare;
+-acestea pot fi create doar atunci cand e nevoie 
+
+Dezavantaje:
+- Bottleneck
+-Raspunsul din partea serviciului ar putea intarzia
+-Codul poate devein mai complicat oadat cu introducerea claselor noi

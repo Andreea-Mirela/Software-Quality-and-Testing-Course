@@ -1,0 +1,14 @@
+Aplicatie informatica pentru domeniul financiar, sectorul investitiilor
+
+ADAPTER 
+Aplicatia contine simulatoare proprii pentru gestiunea fondurilor de investitii, insa administratorul isi propune sa cumpere licenta de la 
+o companie financiara pentru a folosi o librarie externa ce contine alte tipuri de simulatoare. Desi intre acestea si cele deja implementate
+exista diferente la nivel de sintaxa, au acelasi scop, asa ca se doreste adaptarea lor. 
+
+Avantaje:
+•Clasele existente pentru simulatoare nu sunt modificate pentru a putea fi folosite intr-un alt context
+•Se adauga doar un layer intermediar care permite folosirea unor simulatoare diferite ca sintaxa dintr-o librarie externa
+
+Dezavantaje:
+•Adaptorul de clase se bazeaza pe derivare multipla, lucru care nu este posibil in Java. Alternativa este prin interfete si compunere
+•Nu este usor sa se inlocuiasca metodele clasei Adaptor

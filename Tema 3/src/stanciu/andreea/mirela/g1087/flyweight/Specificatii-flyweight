@@ -1,0 +1,19 @@
+Aplicatie informatica pentru domeniul financiar, sectorul investitiilor
+
+FLYWEIGHT
+In una dintre lectiile cursului, mai exact cea care descrie importanta ACTIVELOR si PASIVELOR, utilizatorii vor practica notiunile teoretice invatate 
+intr-un joc care simuleaza realitatea. Mai exact, utilizatorii vor alege ce sa achizitioneze cu banii pe care ii detin: masini, proprietati, precum si 
+alte bunuri, pentru a observa care dintre acestea produc bani si care dintre ele consuma. Fiecare obiect grafic de acest tip ocupa un spatiu semnificativ. 
+Colectia de obiecte contine elemente de acelasi fel, insa au si anumite caracteristici diferite – dimensiuni, culoare, coordonate la afisarea pe ecran etc.  
+Scenariile in care utilizatorii interactioneaza cu mai multe obiecte grafice necesita un spatiu semnificativ de memorie pentru client, asa ca este necesara 
+implementarea unei solutii eficiente privind gestiunea acestor situatii. 
+
+Avantaje:
+•Se reduce memoria ocupata de obiectele grafice prin partajarea starii lor intre obiecte de acelasi tip
+•Timp de raspuns mai mare
+•Performanta sporita datorita unui numar mai mic de obiecte costisitoare
+
+Dezavantaje:
+•Trebuie analizate clasele si contextul pentru a se determina ce reprezinta stare variabila ce poate fi internalizata
+•Efectele sunt vizibile dac[ numarul de obiecte  grafice este mare
+•Nivelul de memorie redusa depinde de numarul de categorii de obiecte de tip Flyweight

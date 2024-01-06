@@ -1,0 +1,13 @@
+Aplicatie informatica pentru domeniul financiar, sectorul investitiilor
+
+PROTOTYPE
+
+Pe parcursul cursului, fiecare utilizator va avea un model de portofoliu de investitii. Crearea portofoliului este un proces costisitor ca timp si spatiu deoarece presupune incarcarea si generarea modelului. Trebuie gasita o solutie eficienta pentru a crea mai multe instante ale portofoliului. 
+Avantaje:
+•Creare rapida de modele de portofoliu de investitii identice prin clonare
+•Este evitat apelul explicit al constructorului
+•Poate fi construita o colectie de prototipuri care sa fie utilizata pentru a genera obiecte noi
+
+Dezavantaje:
+•Atentie la crearea de obiecte ce partajeaza aceleasi resurse – shallowcopy 
+•Deoarece sunt clonate obiectele, procesul ar putea deveni complex atunci cand exista multe clase

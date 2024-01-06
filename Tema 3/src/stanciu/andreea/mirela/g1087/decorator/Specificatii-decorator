@@ -1,0 +1,19 @@
+Aplicatie informatica pentru domeniul financiar, sectorul investitiilor
+
+DECORATOR
+Cursantii pot obtine anumite bonusuri sau penalizari sub diferite forme pe parcursul lectiilor, mai exact la sustinerea examenelor partiale sau 
+rezolvarea exercitiilor practice. Acestea sunt avantaje, respectiv dezavantaje pentru cursant la examenul final, deci determina decorarea/extinderea 
+functionalitatii standard de sustinere a examenului final. Spre exemplu, daca un cursant are bonus MEGA(bonusurile sunt de 3 tipuri-MINI, MAJOR si MEGA),
+sustinerea examenului final va avea un grad mai mic de dificultate, nemaifiind supus tuturor cerintelor. In caz contrar, daca un cursant are o penalizare, 
+gradul de dificultate al examenului se va amplifica prin adaugare de cerinte noi. De asemenea, pot exista cursanti care obtin atat bonusuri, cat si 
+penalizari, examenul final fiind o extindere a functionalitatii standard. 
+
+Avantaje:
+
+•Extinderea functionalitatii pentru un anumit obiect de tip Cursant se face dinamic, la run-time
+•Decorarea este transparenta pentru utilizator deoarece clasa mosteneste clasa abstracta specifica obiectului
+•Nu se impune limite privind un numar maxim de decorari, fiind necesar sa se implementeze mai multe, pt fiecare tip de bonus
+
+Dezavantaje:
+•Decoratorul este un wrapper pentru obiectul initial. El nu este identic cu obiectul incapsulat
+•Utilizarea excesiva genereaza o multime de obiecte care arata la fel dar care se comporta diferit deci codul va fi dificil de inteles si verificat 

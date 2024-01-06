@@ -1,0 +1,14 @@
+Aplicatie informatica pentru domeniul financiar, sectorul investitiilor
+
+SINGLETON 
+Solutia informatica este dezvoltata de un singur programator. Ulterior, doar acesta va putea realiza modificari 
+in contiuntul cursurilor despre investitii conectandu-se pe contul de administrator. Prin urmare, nu este permisa crearea de obiecte
+multiple de tipul ContAdministrator. Va fi permisa o singura instanta a clasei ContAdministrator, toate modulele folosind acest unic obiect.  
+
+Avantaje 
+	-gestiunea centralizata a contului de administrator printr-o instanta unica
+	-controlul strict al instantierii clasei ContAdministrator, o singura data
+	-Lazy instantiation (obiectul este create atunci cand este necesar)
+Dezavantaje 
+	-in multi-threadingpot aparea probleme de sincronizare sau cooperare daca singleton-ul este partajat
+	-poate deveni un bottleneck care sa afecteze performanta aplicatiei

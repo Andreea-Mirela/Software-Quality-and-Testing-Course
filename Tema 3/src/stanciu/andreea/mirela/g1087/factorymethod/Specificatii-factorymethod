@@ -1,0 +1,17 @@
+Aplicatie informatica pentru domeniul financiar, sectorul investitiilor
+
+FACTORY METHOD
+In structura cursului, exista momentan 3 tipuri de lectii: text (sub doua forme diferite, cu sau fara imagini), audio si video. 
+In viitor, este posibil sa apara tipuri noi sau cele existente sa se modifice. 
+Cursul permite alegerea unui mod de invatare care influenteaza colectia de lectii. 
+Trebuie utilizata o metoda eficienta care sa permita utilizarea oricarui mod de invatare fara a modifica major functionalitatea. 
+
+Avantaje:
+•Toate lectiile create au in comun LectieAbstracta
+•Controlul strict al instantierii–obiectele nu sunt create direct prin constructori ci prin metoda de tip factory
+•Diferitele tipuri de lectii sunt gestionate unitar prin clasa abstracta comuna. Prin urmare, pot fi adaugate tipuri noi, din aceeasi familie, fara modificari
+•Implementeaza principiul DependencyInversion
+
+Dezavantaje:
+•Nu pot fi generate obiecte “noi”
+•Constructorii sunt privati –clasele nu pot fi extinse
